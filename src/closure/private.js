@@ -1,16 +1,18 @@
 const person = () => {
     var saveName = 'NAme';
     return {
-        getname: () => {
+        mostrar: () => {
             return saveName;
         },
-        setName: (name) => {
+        agregar: (name) => {
             saveName = name;
         },
     };
 };
 
 newPerson = person();
-console.log(newPerson.getname());
-newPerson.setName('Oscar')
+console.log(newPerson.mostrar());
+newPerson.agregar('Oscar')
+console.log(newPerson.mostrar());
+newPerson.setName('Antony');
 console.log(newPerson.getname());

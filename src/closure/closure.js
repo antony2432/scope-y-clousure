@@ -9,10 +9,10 @@
 
 
 const moneyBox = () => {
-    let saveCoins = 0;
+    let guardar = 0;
     const counCoins = (coins) => {
-        saveCoins += coins;
-        console.log(`moneyBox: $${saveCoins}`);
+        guardar += coins;
+        console.log(`moneyBox: ${guardar}`);
     }
     return counCoins;
 };
